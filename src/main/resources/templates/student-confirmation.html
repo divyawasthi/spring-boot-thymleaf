@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Student confirmation</title>
+</head>
+<body>
+Student Confirmation
+The student is <b th:text="${student.firstName} + ${student.lastName}" ></b> from <b th:text="${student.country}"></b>
+Favourite Programming language is <span th:text="${student.favLanguage}"></span>
+<br>
+operating System : <span th:text="${student.os}" ></span>
+</body>
+</html>
